@@ -6,6 +6,11 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(15px + 0.390625vw);
 }
+section h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px 20px 20px 20px;
+}
 
 /*
 ======================================================================
@@ -49,4 +54,65 @@ section.banner p button {
     font-size: 1.3rem;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+}
+
+/*
+========================================================================
+posts
+========================================================================
+*/
+
+section.posts {
+    background: #EDF7FA;
+    padding: 20px 10px 20px 10px;
+}
+
+section.posts ul li {
+    background: white;
+    margin: 20px 15px 20px 15px;
+    padding: 20px 17px 20px 17px;
+    border-radius: 5px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0px 20px 15px 0px;
+}
+section.posts ul li p {
+    font-size: 1.1rem;
+    margin: 15px 0px 15px 0px;
+    line-height: 1.5rem;
+}
+
+/*
+========================================================================
+DashBoard
+========================================================================
+*/
+section.works {
+    padding: 0px 25px 0px 25px
+}
+
+section.works img {
+    width: 100%;
+}
+section.works h3 {
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    font-size: 1.5rem;
+}
+section.works ul li p {
+    font-size: 1.2rem;
+    margin: 20px 5px 20px 5px;
+    line-height: 1.5rem;
+}
+section.works ul li p.info {
+    color: #8695A4;
+}
+section.works ul li p span {
+    background: #142850;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 7px 16px 7px 16px;
+    border-radius: 25px;
 }
